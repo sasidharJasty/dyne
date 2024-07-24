@@ -1,0 +1,499 @@
+.Home-Discover-Btn {
+  background: linear-gradient(
+    to bottom right,
+    rgba(72, 112, 255, 0.9),
+    rgba(9, 6, 140, 0.9)
+  );
+}
+.Home-Landing-Container {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.177),
+      rgb(0, 0, 0)
+    ),
+    url("../assets/Images/nasa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+
+}
+.Gradient-Overlay {
+  position: absolute;
+  margin-top: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 1)
+  );
+}
+.gradient{
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.177),
+      rgb(0, 0, 0)
+    ) !important;
+
+}
+
+.Mission-Gradient {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1),
+    rgba(236, 236, 236, 0.65)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Technology-Container {
+  background: linear-gradient(
+    to bottom,
+    rgba(25, 25, 25, 0.3),
+    rgba(63, 62, 62, 0.3)
+  );
+}
+.Content-Font {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+.Home-Discover-Btn {
+  background: linear-gradient(
+    to bottom right,
+    rgba(72, 112, 255, 0.9),
+    rgba(9, 6, 140, 0.9)
+  );
+}
+.gradient{
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(26, 29, 30, 0));
+}
+
+.Gradient-Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 30;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 1)
+  );
+}
+
+.Mission-Gradient {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1),
+    rgba(236, 236, 236, 0.65)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Content-Font {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.container {
+  margin-top: 10vh;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 45% 80%;
+  column-gap: 50px;
+  margin-left: 6vw;
+  background-image: url("../assets/images/wallpaper.png");
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+}
+
+.gradient {
+  background: linear-gradient(to right, #131414, #1a1d1e00);
+}
+
+.container-text h1 {
+  color: #5271ff;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 450;
+  letter-spacing: 1.5px;
+  margin-top: 0 !important; /* Use 0 without vh */
+}
+
+.container-text span {
+  color: white !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 450;
+  letter-spacing: 1.5px;
+  margin-top: 0 !important; /* Use 0 without vh */
+}
+
+.container-text-p {
+  margin-top: 3vh;
+  color: #cdcdcd !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  max-width: 100%;
+  font-weight: 350;
+  letter-spacing: 2px;
+}
+
+.container-text-button {
+  width: 90%;
+  margin-top: 10vh;
+  color: black;
+  height: 6vh;
+  background-color: white !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.bg-black {
+  overflow-x: hidden;
+}
+
+.row-buttons {
+  width: 95%;
+  margin-top: 3vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-left: 0;
+  display: flex;
+}
+
+.row-buttons button {
+  color: white;
+  height: 8vh;
+  font-size: 15px;
+  width: 46%;
+  background-color: rgba(51, 66, 129, 0.44);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400 !important;
+  text-align: left;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.windows-icon {
+  margin-right: 10px;
+  width: 20%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400 !important;
+}
+
+.Home-Container {
+  background-color: #1a1d1e;
+}
+.my-form{
+  width: 100vh !important;
+  height: 100vh !important;
+}
+.Blue-Gradient {
+  background: linear-gradient(
+    90deg,
+    #5271ff,
+    #5272ffa4,
+    #5272ff70,
+    #272c4568,
+    #1a1d1e00
+  );
+}
+
+.Blue-Gradient-Standard {
+  background: linear-gradient(
+    90deg,
+    #5272ff76,
+    #5272ff4e,
+    #5272ff1d,
+    #1a1d1e00
+  );
+}
+
+.Blue-Gradient2 {
+  background: linear-gradient(
+    90deg,
+    #3226bad3,
+    #5272ff70,
+    #272c4568,
+    #1a1d1e00
+  );
+}
+
+@media screen and (max-width: 900px) {
+  .mobile-padding-expand {
+    padding-left: 22vw !important;
+    padding-right: 22vw !important;
+  }
+
+  .mobile-nomarg {
+    margin: 0 !important;
+  }
+
+  .container-text-h1 {
+    width: 100% !important;
+  }
+
+  .landing-image {
+    width: 90vw !important;
+    padding-top: 20vh;
+  }
+
+  .landing-screen {
+    flex-direction: column-reverse !important;
+    margin-bottom: 10vh;
+  }
+
+  .container-text {
+    width: 95vw !important;
+  }
+
+  .container-text-h1 {
+    width: 95vw !important;
+  }
+
+  .container-text-p {
+    max-width: 90vw !important;
+  }
+
+  .Home-Container {
+    margin-top: 5vh;
+  }
+
+  .row-buttons {
+    flex-direction: column-reverse !important;
+  }
+
+  .container-mac-button {
+    width: 85vw !important;
+    margin-bottom: 5vh;
+  }
+
+  .container-windows-button {
+    width: 85vw !important;
+  }
+
+  .mobile-padding {
+    margin-top: -25vh !important;
+    margin-bottom: 10vh;
+  }
+
+  .mobile {
+    display: none !important;
+  }
+
+  .Home-Content {
+    padding-top: 0px !important;
+  }
+
+  .Downloads {
+    margin-top: 5vh !important;
+  }
+
+  .mobile-flex {
+    flex-direction: column;
+  }
+
+  .mobile-flex-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .mobile-title-font {
+    font-size: 8vw !important;
+  }
+
+  .mobile-downloads {
+    margin-top: 5vh !important;
+    width: 80vw !important;
+  }
+
+  .mobile-padding-left {
+    padding-left: 0 !important;
+  }
+
+  .mobile-padding-right {
+    padding-right: 0 !important;
+  }
+
+  .mobile-subtitle-font {
+    font-size: 5vw !important;
+  }
+
+  .mobile-spacing {
+    height: auto !important;
+    margin-top: 20vh !important;
+    margin-bottom: 15vh !important;
+  }
+
+  .mobile-auto-height {
+    height: auto !important;
+  }
+
+  .section-spacing {
+    margin-top: 20vh !important;
+  }
+
+  .section-spacing-half {
+    margin-top: 10vh !important;
+  }
+
+  .people-mobile{
+    height: 55vh !important;
+    margin-bottom: 10vh !important;
+  }
+
+  .section-spacing-3 {
+    margin-top: 20vh !important;
+  }
+
+  .mobile-paragraph {
+    font-size: 4vw !important;
+  }
+
+  .mobile-width {
+    width: 82vw !important;
+  }
+  .mobile-width-percent {
+    width: 82% !important;
+  }
+  .mobile-width-fit {
+    width: auto !important;
+  }
+  .mobile-height-50{
+    height:50vh !important;
+  }
+
+  .mobile-noBorder {
+    border: none !important;
+  }
+
+  .mobile-Selection-font {
+    margin-left: 3vw !important;
+    font-size: 4vw !important;
+  }
+
+  .section-image-spacing {
+    margin-top: 5vh !important;
+    margin-bottom: 5vh !important;
+  }
+
+  .mobile-fill-width {
+    width: 100% !important;
+  }
+
+  .mobile-relative {
+    position: relative !important;
+  }
+
+  .mobile-2_3 {
+    width: 66vw !important;
+  }
+
+  .mobile-small-spacing {
+    margin-top: 2vh !important;
+  }
+
+  .section-spacing-image {
+    padding-top: 80vh !important;
+  }
+
+  .mobile-height {
+    height: 235vh !important;
+    margin-bottom: 20vh !important;
+  }
+
+  .mobile-height-fit {
+    height: auto !important;
+  }
+
+  .mobile-button-container-spacing {
+    margin-left: -5vw !important;
+  }
+
+  .mobile-neg-top {
+    margin-top: -15vh !important;
+  }
+
+  .mobile-bottom-border {
+    padding-bottom: 5vh !important;
+    border-bottom: 2px solid #5271ff;
+  }
+
+  .mobile-bottom-spacing {
+    margin-bottom: 5vh !important;
+  }
+
+  .deep-mobile {
+    margin-top: 8vh !important;
+  }
+
+  .socials-mobile {
+    margin-top: 80vh !important;
+  }
+
+  .followbtn-mobile {
+    margin-top: 7vh !important;
+    width: 80vw !important;
+    border-right-style: none !important;
+  }
+
+  .socials-div-mobile {
+    margin-top: 30vh !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    width: 100% !important;
+    left: 0 !important; /* Explicitly set left position */
+    position: relative !important;
+  }
+  .mobile-bottom-nomarg{
+    margin-bottom: 0 !important;
+  }
+  .buttons-download-mobile {
+    width: 100% !important;
+  }
+  .mobile-80{
+    height: 80vh !important;
+  }
+  .mobile-socials{
+    width:12vw !important;
+    height: 12vw !important;
+  }
+  /*Footer classes */
+  .footer-position{
+    margin:0 !important;
+  }
+  .mb-land-img{
+    margin-top: 17vh !important;
+    width:100vw !important;
+    height: 26vh !important;
+  }
+  .text-mb-mission{
+    font-size: 4vw !important;
+    width: 70vw !important;
+    margin-left: 0 !important;
+  }
+  .who-we-mobile{
+    margin-top: 25vh !important;
+  }
+  .mobile-margin-bottom{
+    margin-bottom:25vh !important;
+  }
+}
