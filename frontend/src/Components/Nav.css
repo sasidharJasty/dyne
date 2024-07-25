@@ -37,13 +37,14 @@
 @media screen and (max-width: 1025px) {
   .popup {
     position: absolute;
+    right:0;
     z-index: 999;
-    margin: auto !important;
-    background-color: white;
-    flex-direction: column !important;
-    right: 0;
 
-    top: 27vw;
+    background-color: black;
+    flex-direction: column !important;
+    right: -50%;
+
+    top: 5vh;
   }
 
   .popup li {
