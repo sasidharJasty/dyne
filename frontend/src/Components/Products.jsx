@@ -21,7 +21,7 @@ export default function Product(props) {
               href="https://tally.so/r/mV8WpE"
               className="py-[1.5vw] px-[3vw]  w-fit mx-auto  rounded-md font-thin text-center  justify-center border border-white md:py-[0.4vw] md:px-[1vw]  hover:scale-110 transition-all ease-in-out  tracking-wide"
             >
-              Join ↗
+              Join &#8599;
             </a>
       </div>
     </div>

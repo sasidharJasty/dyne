@@ -113,7 +113,7 @@ function Navbar() {
             <div className={` ${isSmallScreen ? "w-1/12 " : "hidden"}`}></div>
             <a
               href="https://tally.so/r/mV8WpE"
-              className={` w-fit mx-auto text-white ml-20 rounded-md md:text-[0.9vw] text-[3.3vw] font-thin text-center justify-center border border-white py-[0.4vw] px-[1vw] hover:scale-110 transition-all ease-in-out tracking-wide ${
+              className={` w-fit mx-auto text-white ml-20 rounded-md md:text-[0.9vw] pt-2 text-[3.3vw] font-thin text-center justify-center border border-white py-[0.4vw] px-[1vw] hover:scale-110 transition-all ease-in-out tracking-wide ${
                 isSmallScreen ? "hidden md:inline-block" : "md:inline-block"
               }`}
             >

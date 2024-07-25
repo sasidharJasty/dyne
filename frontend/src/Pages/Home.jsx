@@ -62,7 +62,7 @@ export default function Home() {
               href="mailto:dyneresearch@gmail.com "
               className="md:ml-5 py-[1.5vw] px-[3vw] rounded-md font-thin text-center ml-0 md:w-fit w-[70vw] justify-center border border-white md:py-[0.4vw] md:px-[1vw]  hover:scale-110 transition-all ease-in-out  tracking-wide"
             >
-              Get in touch ↗
+              Get in touch &#8599;
             </a>
           </div>
           </div>
@@ -233,7 +233,7 @@ export default function Home() {
               href="mailto:dyneresearch@gmail.com "
               className="md:ml-0 py-[1.5vw] px-[3vw] rounded-md font-thin text-center ml-0 md:w-fit w-[70vw] justify-center border border-white md:py-[0.4vw] md:px-[1vw]  hover:scale-110 transition-all ease-in-out  tracking-wide"
             >
-              Get in touch ↗
+              Get in touch &#8599;
             </a>
             </div>
             <img className="md:w-1/2 w-[90vw] rounded-3xl" src={sponsor}>
