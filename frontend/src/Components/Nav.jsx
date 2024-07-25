@@ -25,7 +25,7 @@ function Navbar() {
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
             src="https://i.ibb.co/pfW6CJL/full-logo.png"
-            className="w-[25vw] md:w-[7vw] h-fit mt-0"
+            className="w-[25vw] md:w-[7vw] hmd:-fit h-[2.5vh] mt-0"
             alt="Dyne Logo"
           />
         </a>

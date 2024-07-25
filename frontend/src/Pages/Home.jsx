@@ -30,8 +30,8 @@ export default function Home() {
       <div  className=" w-screen h-fit md:mt-0 mt-32">
         <div className="w-screen h-fit relative">
           <div className="w-fit h-fit relative  ">
-        <img src={bg} className="w-screen md:!relative !z-0 h-fit max-md:hidden"></img>
-        <img src={mobile} className="w-screen relative !z-0 h-fit md:hidden"></img>
+        <img src={bg} className="w-screen md:!relative !z-0 h-fit max-sm:hidden"></img>
+        <img src={mobile} className="w-screen relative !z-0 h-screen md:hidden"></img>
         <div className="w-screen h-full bg-gradient-to-b from-transparent via-20% via-transparent  to-black absolute top-[2vh] left-0 z-10">
 
         </div>
