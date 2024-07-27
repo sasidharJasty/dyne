@@ -25,7 +25,7 @@ function Navbar() {
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
             src="https://i.ibb.co/pfW6CJL/full-logo.png"
-            className="w-[25vw] md:w-[7vw] hmd:-fit h-[2.5vh] mt-0"
+            className="w-[25vw] lg:w-[7vw] hlg:-fit h-[2.5vh] mt-0"
             alt="Dyne Logo"
           />
         </a>
@@ -66,11 +66,11 @@ function Navbar() {
               }`}
               id="navbar-default"
             >
-              <ul className=" popup !font-normal md:text-[0.9vw] text-[3.3vw] flex flex-col p-4 lg:p-0 mt-4 border lg:pt-10 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:border-gray-700" >
+              <ul className=" popup !font-normal lg:text-[0.9vw] text-[3.3vw] flex flex-col p-4 lg:p-0 mt-4 border lg:pt-10 rounded-lg lg:flex-row lg:space-x-8 rtl:space-x-reverse lg:mt-0 lg:border-0 dark:border-gray-700" >
                 <li>
                   <a
                     href="/"
-                    className="block py-2 px-3 !font-normal uppercase md:text-[0.9vw] text-[3.3vw] text-white md:hover:text-blue-700 rounded bg-transparent md:text-white-700 md:p-0 dark:text-white md:dark:text-white-500"
+                    className="block py-2 px-3 !font-normal uppercase lg:text-[0.9vw] text-[3.3vw] text-white lg:hover:text-blue-700 rounded bg-transparent lg:text-white-700 lg:p-0 dark:text-white lg:dark:text-white-500"
                     aria-current="page"
                   >
                     Home
@@ -79,7 +79,7 @@ function Navbar() {
                 <li>
                   <a
                     href="/#mission"
-                    className="block py-2 px-3 text-gray-900 rounded uppercase !font-normal md:text-[0.9vw] text-[3.3vw]  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500  dark:hover:text-white md:dark:hover:bg-transparent"
+                    className="block py-2 px-3 text-gray-900 rounded uppercase !font-normal lg:text-[0.9vw] text-[3.3vw]  lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500  dark:hover:text-white lg:dark:hover:bg-transparent"
                   >
                     Mission
                   </a>
@@ -87,7 +87,7 @@ function Navbar() {
                 <li>
                   <a
                     href="/#news"
-                    className="block py-2 px-3 text-gray-900 rounded uppercase !font-normal md:text-[0.9vw] text-[3.3vw] md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500  dark:hover:text-white md:dark:hover:bg-transparent"
+                    className="block py-2 px-3 text-gray-900 rounded uppercase !font-normal lg:text-[0.9vw] text-[3.3vw] lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500  dark:hover:text-white lg:dark:hover:bg-transparent"
                   >
                     News
                   </a>
@@ -95,7 +95,7 @@ function Navbar() {
                 <li>
                   <a
                     href="/#projects"
-                    className="block py-2 px-3 text-gray-900 rounded uppercase !font-normal md:text-[0.9vw] text-[3.3vw] md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500  dark:hover:text-white md:dark:hover:bg-transparent"
+                    className="block py-2 px-3 text-gray-900 rounded uppercase !font-normal lg:text-[0.9vw] text-[3.3vw] lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500  dark:hover:text-white lg:dark:hover:bg-transparent"
                   >
                     Projects
                   </a>
@@ -103,7 +103,7 @@ function Navbar() {
                 <li>
                   <a
                     href="/#sponsor"
-                    className="block py-2 px-3 text-gray-900 rounded uppercase !font-normal md:text-[0.9vw] text-[3.3vw] md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500  dark:hover:text-white md:dark:hover:bg-transparent"
+                    className="block py-2 px-3 text-gray-900 rounded uppercase !font-normal lg:text-[0.9vw] text-[3.3vw] lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500  dark:hover:text-white lg:dark:hover:bg-transparent"
                   >
                     Sponsor
                   </a>
@@ -113,8 +113,8 @@ function Navbar() {
             <div className={` ${isSmallScreen ? "w-1/12 " : "hidden"}`}></div>
             <a
               href="https://tally.so/r/mV8WpE"
-              className={` w-fit mx-auto text-white ml-20 rounded-md md:text-[0.9vw] pt-2 text-[3.3vw] font-thin text-center justify-center border border-white py-[0.4vw] px-[1vw] hover:scale-110 transition-all ease-in-out tracking-wide ${
-                isSmallScreen ? "hidden md:inline-block" : "md:inline-block"
+              className={` w-fit mx-auto text-white ml-20 rounded-md lg:text-[0.9vw] !h-fit pt-2 text-[3.3vw] font-thin text-center justify-center border border-white py-[0.4vw] px-[1vw] hover:scale-110 transition-all ease-in-out tracking-wide ${
+                isSmallScreen ? "hidden lg:inline-block" : "lg:inline-block"
               }`}
             >
               Join the Waitlist

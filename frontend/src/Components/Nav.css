@@ -34,7 +34,7 @@
   margin-right: 1vw;
   font-size: 1.5vh !important;
 }
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1023px) {
   .popup {
     position: absolute;
     right:0;
